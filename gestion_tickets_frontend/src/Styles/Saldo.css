@@ -1,0 +1,23 @@
+.saldo-container {
+  max-width: 500px;  /* Aumenta el tamaño del cuadro */
+  padding: 30px;     /* Más espacio interno */
+  background: rgba(75, 71, 71, 0.7); /* Color más opaco si lo deseas */
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Asegurar que los botones y campos también tengan más espacio */
+.input-group input {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 12px;
+  width: 100%;
+}
+
+
+

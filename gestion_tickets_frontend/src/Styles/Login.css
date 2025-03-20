@@ -1,0 +1,93 @@
+/* Contenedor principal del login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para el formulario de login */
+.login-form {
+  background: rgba(61, 58, 58, 0.7); /* Fondo semi-transparente */
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+/* Estilos para el título */
+h1 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de cada grupo de entrada */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px; /* Espacio entre el label y el input */
+  margin-bottom: 15px; /* Espaciado entre cada grupo */
+}
+
+/* Estilos para los labels */
+.input-group label {
+  color: white;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Estilos para los campos de entrada */
+.full-width-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Borde ligero para mejor visibilidad */
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.login-button {
+  width: 100%; /* Hace que el botón sea del mismo ancho que los inputs */
+  padding: 10px;
+  background-color: #ff7300;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+/* Cambio de color cuando el usuario pasa el cursor sobre el botón */
+.login-button:hover {
+  background-color: #e66400;
+ }
+
+/* Contenedor de opciones (olvidé mi contraseña / crear cuenta) */
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Estilos para los enlaces de opciones */
+.options a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para los mensajes de error */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

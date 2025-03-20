@@ -1,0 +1,83 @@
+.comprar-horas-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(80, 73, 73, 0.9);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.comprar {
+  background-color: #28a745;
+  color: white;
+}
+
+.comprar:hover {
+  background-color: #218838;
+}
+
+.consultar {
+  background-color: #007bff;
+  color: white;
+}
+
+.consultar:hover {
+  background-color: #0056b3;
+}
+
+.mensaje {
+  margin-top: 10px;
+  font-weight: bold;
+  color: red;
+}
+
+.compras-lista {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.compras-lista h3 {
+  text-align: center;
+}
+
+.compras-lista ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.compras-lista li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
